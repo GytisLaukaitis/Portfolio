@@ -1,5 +1,4 @@
 # DevFolio 
-<a href = "https://github.com/achaljhawar/DevFolio/graphs/contributors"><a href="https://github.com/achaljhawar/DevFolio/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/achaljhawar/DevFolio"></a><a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fachaljhawar%2FDevFolio"><img alt="Twitter" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2F"></a><a href="https://github.com/achaljhawar/DevFolio/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/achaljhawar/DevFolio"></a><br />
 This is a simple responsive portfolio website template . You can use it and make it yours by changing things and colors to your style and liking! I made it with a lot of hard work, love and of course with code :) I'm not a professional coder, but i tried my best to make it look cool and yet still keep it simple. 
 
 > Mistakes are proof that we are trying!
@@ -28,7 +27,7 @@ To download and use this template you could use `git clone` or `npx degit` to do
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/gytislaukaitisi/DevFolio.git
+$ git clone https://github.com/gytislaukaitisi/anotherportfolio.git
 
 # Go into the repository
 $ cd DevFolio
@@ -131,7 +130,7 @@ I highly recommend to use [Github Pages](https://pages.github.com/) to achieve t
 
 ## Author
 
-- **Achal Jhawar** - [https://github.com/gytislaukaitisi](https://github.com/gytislaukaitisi)
+- **Gytis Laukaitis** - [https://github.com/gytislaukaitisi/anotherportfolio.git](https://github.com/gytislaukaitisi/anotherportfolio.git)
 
 ## License 📄 <a href = "https://github.com/achaljhawar/DevFolio/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/achaljhawar/DevFolio?style=flat-square"></a>
 
@@ -139,7 +138,7 @@ This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENS
 
 ## 🤝 Contributing
 
-Any idea on how we can make this more awesome ? [Open a new issue](https://github.com/gytislaukaitisi/DevFolio/issues)!  I need all the help I can get to make this project awesome!
+Any idea on how we can make this more awesome ? [Open a new issue](https://github.com/gytislaukaitisi/anotherportfolio/issues)!  I need all the help I can get to make this project awesome!
 
 ### Don't forget to ⭐ and 🍴 the repository and share it with others.
 
