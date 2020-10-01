@@ -510,7 +510,7 @@ hr {
 		word-wrap: none;
 		word-break: keep-all;
 	  position: absolute;
-	  width:72vw;
+	  width: 50vw;
 	  opacity: 0;
 	  overflow: hidden;
 	  margin: 0;
@@ -549,7 +549,7 @@ hr {
 		word-wrap: none;
 		word-break: keep-all;
 	  position: absolute;
-	  width:72vw;
+	  width: 60vw;
 	  opacity: 0;
 	  overflow: hidden;
 	  margin: 0;
