@@ -1,4 +1,10 @@
 
+/* *  {
+	background: #000 !important;
+	color: #0f0 !important;
+	outline: solid #f00 1px !important;
+  }  */
+  
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
@@ -113,6 +119,7 @@ a.nav-link{
 	z-index: 1;
 	margin: auto;
 	padding: 20px;
+	
 }
 
 .intro  p{
@@ -423,27 +430,33 @@ hr {
 
 .text {
 	position: absolute;
-	width: 450px;
-	left: 50%;
-	margin-left: -475px;
 	height: 40px;
-	top: 20%;
-	margin-top: -20px;
+	top: 18%;
   }
   
-  h2 {
+  h3 {
+	  line-height: 3;
+	  font-size: 4vw;
 	display: inline-block;
 	vertical-align: top;
-	margin: 0;
+
   }
+
+  h1 {
+	line-height: 3;
+	font-size: 4vw;
+  display: inline-block;
+  vertical-align: top;
+
+}
   
   .word {
+	  margin-left: 2vw;
+	  font-size: 4vw;
 	  word-wrap: none;
 	  word-break: keep-all;
-	  margin-left: 100px;
-	  margin-top: -90px;
 	position: absolute;
-	width: 600px;
+	width: 40vw;
 	opacity: 0;
   }
   
@@ -487,4 +500,118 @@ hr {
   
   .midnight {
 	color: #2c3e50;
+  }
+
+  @media (min-width: 700px) and (max-width: 870px) {
+
+	
+	.word {
+		font-size: 6vw;
+		word-wrap: none;
+		word-break: keep-all;
+	  position: absolute;
+	  width:72vw;
+	  opacity: 0;
+	  overflow: hidden;
+	  margin: 0;
+	  padding: 0%;
+	}
+
+	h3 {
+		margin:0;
+		padding: 0;
+		padding-left: 2vw;
+		line-height: 3;
+		font-size: 6vw;
+	  display: inline-block;
+	  vertical-align: top;
+  
+	}
+
+
+	h1{
+		margin-left: 5vw;
+		padding: 0;
+		padding-left: 2vw;
+		line-height: 3;
+		font-size: 6vw;
+	  display: inline-block;
+	  vertical-align: top;
+  
+	}
+  }
+
+  @media (min-width: 860px) and (max-width: 1200px)  {
+
+	
+	.word {
+		font-size: 4vw;
+		word-wrap: none;
+		word-break: keep-all;
+	  position: absolute;
+	  width:72vw;
+	  opacity: 0;
+	  overflow: hidden;
+	  margin: 0;
+	  padding: 0%;
+	}
+
+	h3 {
+		margin:0;
+		padding: 0;
+		padding-left: 2vw;
+		line-height: 3;
+		font-size: 4vw;
+	  display: inline-block;
+	  vertical-align: top;
+  
+	}
+
+
+	h1{
+		margin-left: 5vw;
+		padding: 0;
+		padding-left: 2vw;
+		line-height: 3;
+		font-size: 4vw;
+	  display: inline-block;
+	  vertical-align: top;
+  
+	}
+
+
+  }
+
+  @media (min-width: 200px) and (max-width: 702px) {
+
+	.word {
+		font-size: 5vw;
+		word-wrap: normal;
+		word-break: keep-all;
+	  position: absolute;
+	  width: 56vw;
+	  opacity: 0;
+	  overflow: hidden;
+	}
+
+	 h3 {
+		margin:0;
+		padding: 0;
+		line-height: 3;
+		font-size: 20vw;
+	  display: inline-block;
+	  vertical-align: top;
+  
+	}
+
+
+	 h1{
+		margin-left: 16vw;
+		padding: 0;
+		line-height: 3;
+		font-size: 5vw;
+	  display: inline-block;
+	  vertical-align: top;
+  
+	}
   }
