@@ -79,7 +79,7 @@
   
   
   .nav-link:hover {
-	  color: white;
+	  color: black;
   }
   
   /*──────────────────
@@ -585,4 +585,5 @@
 	
 	  }
 	} 
+	
   
