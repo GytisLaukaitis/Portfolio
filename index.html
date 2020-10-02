@@ -1,188 +1,335 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
 	<script>
 		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
+		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
-	  
+
 		gtag('config', 'UA-178515803-1');
-	  </script>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width">
-      <title>DevFolio</title>
-      <link href="style.css" rel="stylesheet" type="text/css" />
-      <link defer rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-      <link rel="icon" href="https://twemoji.maxcdn.com/2/svg/1f609.svg">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script defer src="script.js"></script>
-  </head>
-    <body>
-		<div class="container">
-			
-			<!--────────────────Header───────────────-->
-			<header>
-				<a class="logo" href="#home">
-				</a>
-				<nav>	
-					<ul class="nav-bar"><div class="bg"></div>
-						<li><a class="nav-link active" href="#home">Home</a></li>
-						<li><a class="nav-link" href="#projects">Projects</a></li>
-						<li><a class="nav-link" href="#contact">Contact</a></li>
-						<li><a class="nav-link" href="docs/CV_2020-09-26-111523.pdf">My Resume</a></li>
-					</ul>
-					
-					<div class="hamburger">
-						<div class="line1"></div>
-						<div class="line2"></div>
-						<div class="line3"></div>
+	</script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>DevFolio</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link defer rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+	<link rel="icon" href="https://twemoji.maxcdn.com/2/svg/1f609.svg">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script defer src="script.js"></script>
+</head>
+
+<body>
+	<div class="container">
+
+		<!--────────────────Header───────────────-->
+		<header>
+			<a class="logo" href="#home">
+			</a>
+			<nav>
+				<ul class="nav-bar">
+					<div class="bg"></div>
+					<li><a class="nav-link active" href="#home">Home</a></li>
+					<li><a class="nav-link" href="#projects">Projects</a></li>
+					<li><a class="nav-link" href="#contact">Contact</a></li>
+					<li><a class="nav-link" href="docs/CV_2020-09-26-111523.pdf">My Resume</a></li>
+				</ul>
+
+				<div class="hamburger">
+					<div class="line1"></div>
+					<div class="line2"></div>
+					<div class="line3"></div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<!--─────────────────Home────────────────-->
+			<div id="home">
+				<div id="particles-js"></div>
+				<section class="intro">
+					<div class="text">
+						<h1>I am</h1>
+						<h3>
+							<span class="word wisteria">Laravel Developer</span>
+							<span class="word belize">Java Developer</span>
+							<span class="word pomegranate">Gytis Laukaitis</span>
+						  </h3>
 					</div>
-				</nav>
-			</header>
-			<main>
-				<!--─────────────────Home────────────────-->
-				<div id="home">
-					<div id="particles-js"></div>
-					<section class="intro">
-						<div class="text">
-							<h1>I am</h1>
-							<h3>
-							  <pre><span class="word wisteria">Laravel Developer</span></pre>
-							  <pre><span class="word belize">Java Developer</span></pre>
-							  <pre><span class="word pomegranate">Gytis Laukaitis</span></pre>
-							</h3>
-						  </div>
-						<p>Hi all,</p>
-						<p>I am a passionate Software Developer 🚀<br> having experience of building Web applications with JavaScript <br> / Laravel / Java and some other cool libraries and frameworks.
-						</p>
-						
-						
-						<!--────social media links─────-->
-						
-						<div class="social-media">
-							<a href="mailto:gytislaukaitis@gmail.com" target="_blank"><i class="fab fa-google"></i></a>
-							<a href="https://github.com/gytislaukaitis" target="_blank"><i class="fab fa-github"></i></a>
-							<a href="https://www.linkedin.com/in/gytis-laukaitis-5828721a9/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-							<a href="https://www.facebook.com/gytis.laukaitis" target="_blank"><i class="fab fa-facebook"></i></a>
-						</div>
-						
-					</section> 
-				</div>	
-				
-				<!--───────────────Projects───────────────-->
-				<div id="projects"> 
-					<h3>My Projects.<hr></h3>
-					<p>Here are some of my projects, you may like.</p>
-					<div class="work-box">
-						<div class="work">
-							<!--───────────────card───────────────-->
-							<div class="card">
-								<img class="work-img" src="./images/bugati.jpg">
-								<a href="https://www.gytislaukaitis.eu/Cars/public/" target="_blank"> <!--Link to project-->
-									<div class="work-content">Cars Crud.Login gytislaukaitis@gmail.com Pasword gytis</div></a>
+					<p>Hi all,</p>
+					<p>I am a passionate Software Developer 🚀<br> having experience of building Web applications with
+						JavaScript <br> / Laravel / Java and some other cool libraries and frameworks.
+					</p>
+
+
+					<!--────social media links─────-->
+
+					<div class="social-media">
+						<a href="mailto:gytislaukaitis@gmail.com" target="_blank"><i class="fab fa-google"></i></a>
+						<a href="https://github.com/gytislaukaitis" target="_blank"><i class="fab fa-github"></i></a>
+						<a href="https://www.linkedin.com/in/gytis-laukaitis-5828721a9/" target="_blank"><i
+								class="fab fa-linkedin-in"></i></a>
+						<a href="https://www.facebook.com/gytis.laukaitis" target="_blank"><i
+								class="fab fa-facebook"></i></a>
+					</div>
+
+				</section>
+			</div>
+
+			<!--───────────────Projects───────────────-->
+			<div id="projects">
+				<div class="container">
+					<h3>Projects.
+						<hr>
+					</h3>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="card text-center">
+								<img src="./images/Red and Black Circle Modern Restaurant Logo.gif" class="card-img-top">
+								<div class="card-body">
+									<p class="card-text">This project demonstrates basic CRUD operations for cars
+										management system.</p>
 								</div>
-								<div class="card">
-									<img class="work-img" src="./images/blogger.jpg">
-									<a href="https://www.gytislaukaitis.eu/Blog-CMS/public/" target="_blank"> <!--Link to project-->
-										<div class="work-content">Admin interface(add /login to URL)</div></a>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item"><strong>Login: </strong>gytislaukaitis@gmail.com</li>
+									<li class="list-group-item"><strong>Password: </strong>gytis</li>
+								</ul>
+								<a href="https://www.gytislaukaitis.eu/Cars/public/" target="_blank" href="#"
+									class="btn btn-dark">Take a look</a>
+							</div>
+						</div>
+						<div class="col-md-6 ">
+							<div class="card text-center">
+								<img src="./images/Black and Grey Spinning Cool and Funky Computer Logo (3).gif"
+									class="card-img-top">
+								<div class="card-body">
+									<p class="card-text">This is my Blog posts project.Feel free to explore it.</p>
+								</div>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item"><strong>How to use: </strong>
+									</li>
+									<li class="list-group-item"><strong>add /login to URL </strong></li>
+								</ul>
+								<a href="https://www.gytislaukaitis.eu/Blog-CMS/public/" target="_blank" href="#"
+									class="btn btn-dark">Take a look</a>
+							</div>
+						</div>
+						<div class="col-md-12" style="margin-top: 150px;">
+							<img src="./images/Teal and White Mountain Illustrations Encouragement Card (1).png"
+								class="card-img-top">
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+
+
+
+	<!-- Certifications -->
+
+	<div id="projects">
+		<h3>My certifications.
+			<hr>
+		</h3>
+
+		<!--───────────────card───────────────-->
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-md-7">
+					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+
+								<div class="card text-center"><a href="https://www.gytislaukaitis.eu/Diploma.jpg"
+										target="_blank">
+										<img src="./images/BIT960.jpg" class="card-img-top">
+									</a>
+									<div class="card-body">
+										<ul class="list-group list-group-flush">
+											<li class="list-group-item"><strong><a
+														href="https://www.gytislaukaitis.eu/Diploma.jpg"
+														target="_blank"></a>BIT Full-Stack Diploma</strong></li>
+										</ul>
 									</div>
-									<div class="card">
-										<img class="work-img" src="https://images.unsplash.com/photo-1485815457792-d1a966f9bde0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
-										<a href="" target="_blank"> <!--Link to project-->
-											<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
-										</div>
-										<div class="card">
-											<img class="work-img" src="https://images.unsplash.com/photo-1517842645767-c639042777db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
-											<a href="" target="_blank"> <!--Link to project-->
-												<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
-											</div> 
-											<div class="card">
-												<img class="work-img" src="https://images.unsplash.com/photo-1535556116002-6281ff3e9f36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=781&q=80">
-												<a href="" target="_blank"> <!--Link to project-->
-													<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
-												</div>
-												<div class="card">
-													<img class="work-img" src="https://images.unsplash.com/photo-1483546416237-76fd26bbcdd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
-													<a href="" target="_blank"> <!--Link to project-->
-														<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
-													</div> 	  
-												</div>
-											</div>
-										</div>
-										
-										<!-- Certifications -->
-										
-										<div id="projects"> 
-											<h3>My certifications.<hr></h3>
-											<div class="work-box">
-												<div class="work">
-													<!--───────────────card───────────────-->
-													<div class="card">
-														<img class="work-img" src="./images/BIT.png">
-														<a href="https://www.gytislaukaitis.eu/Diploma.jpg" target="_blank"> <!--Link to project-->
-															<div class="work-content">BIT Full-Stack Diploma</div></a>
-														</div>
-														<div class="card">
-															<img class="work-img" src="./images/udemy.png">
-															<a href="https://www.udemy.com/certificate/UC-7c8fbe5f-5a08-49bc-a073-6d98370ddf7d/" target="_blank"> <!--Link to project-->
-																<div class="work-content">PHP Master & CMS Project.</div></a>
-															</div>
-															<div class="card">
-																<img class="work-img" src="./images/udemy.png">
-																<a href="https://www.udemy.com/certificate/UC-2cb580cb-2584-48fe-addc-1a6e18a0dd3b/" target="_blank"> <!--Link to project-->
-																	<div class="work-content">Java Programming Masterclass For Software Developers.</div></a>
-																</div>
-																<div class="card">
-																	<img class="work-img" src="./images/sololearn.png">
-																	<a href="https://www.sololearn.com/Certificate/1060-17407115/pdf/" target="_blank"> <!--Link to project-->
-																		<div class="work-content">SQL Fundamentals course.</div></a>
-																	</div>
-																	<div class="card">
-																		<img class="work-img" src="./images/sololearn.png">
-																		<a href="https://www.sololearn.com/Certificate/1097-17407115/pdf/" target="_blank"> <!--Link to project-->
-																			<div class="work-content">React + Redux course.</div></a>
-																		</div> 
-																		<div class="card">
-																			<img class="work-img" src="./images/sololearn.png">
-																			<a href="https://www.sololearn.com/Certificate/1024-17407115/pdf/" target="_blank"> <!--Link to project-->
-																				<div class="work-content">Javascript tutorial course.</div></a>
-																			</div>
-																			<div class="card">
-																				<img class="work-img" src="./images/sololearn.png">
-																				<a href="https://www.sololearn.com/Certificate/1014-17407115/pdf/" target="_blank"> <!--Link to project-->
-																					<div class="work-content">HTML Fundamentals course.</div></a>
-																				</div>
-																				<div class="card">
-																					<img class="work-img" src="./images/sololearn.png">
-																					<a href="https://www.sololearn.com/Certificate/1014-17407115/pdf/" target="_blank"> <!--Link to project-->
-																						<div class="work-content">CSS Fundamentals course.</div></a>
-																					</div>  	  
-																				</div>
-																			</div>
-																		</div>
-																		
-																		<!--──────────────Contact────────────────-->
-	  <div id="contact">
-		  <!--────social media links─────-->
-		  <h3>Contact<hr></h3>
-		  <p>Feel free to contact me on my social media.</p>
-		  <div class="social-media">
-			  <a href="mailto:gytislaukaitis@gmail.com" target="_blank"><i class="fab fa-google"></i></a>
-			  <a href="https://github.com/gytislaukaitis" target="_blank"><i class="fab fa-github"></i></a>
-			  <a href="https://www.linkedin.com/in/gytis-laukaitis-5828721a9/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-			  <a href="https://www.facebook.com/gytis.laukaitis" target="_blank"><i class="fab fa-facebook"></i></a>
+								</div>
+							</div>
+							<div class="carousel-item">
+
+
+								<div class="card text-center"><a
+										href="https://www.udemy.com/certificate/UC-7c8fbe5f-5a08-49bc-a073-6d98370ddf7d/"
+										target="_blank">
+										<img src="./images/1_UfosUyZgOE97ntxNVuBFEg.png" class="card-img-top">
+									</a>
+									<div class="card-body">
+										<ul class="list-group list-group-flush">
+											<li class="list-group-item"><strong><a
+														href="https://www.gytislaukaitis.eu/Diploma.jpg"
+														target="_blank"></a>PHP Master & CMS Project</strong></li>
+										</ul>
+									</div>
+								</div>
+
+							</div>
+							<div class="carousel-item">
+								<div class="card text-center"><a
+										href="https://www.udemy.com/certificate/UC-2cb580cb-2584-48fe-addc-1a6e18a0dd3b/"
+										target="_blank	">
+										<img src="./images/1_UfosUyZgOE97ntxNVuBFEg.png" class="card-img-top">
+									</a>
+									<div class="card-body">
+										<ul class="list-group list-group-flush">
+											<li class="list-group-item"><strong><a
+														href="https://www.udemy.com/certificate/UC-2cb580cb-2584-48fe-addc-1a6e18a0dd3b/"
+														target="_blank"></a>Java Programming Masterclass For
+													Software
+													Developers</strong></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="card text-center"><a
+										href="https://www.sololearn.com/Certificate/1060-17407115/pdf/" target="_blank"
+										target="_blank">
+										<img src="./images/1200x630wa.png" class="card-img-top">
+									</a>
+									<div class="card-body">
+										<ul class="list-group list-group-flush">
+											<li class="list-group-item"><strong><a
+														href="https://www.sololearn.com/Certificate/1060-17407115/pdf/"
+														target="_blank"></a>SQL Fundamentals course</strong></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="card text-center"><a
+										href="https://www.sololearn.com/Certificate/1097-17407115/pdf/" target="_blank"
+										target="_blank">
+										<img src="./images/1200x630wa.png" class="card-img-top">
+									</a>
+									<div class="card-body">
+										<ul class="list-group list-group-flush">
+											<li class="list-group-item"><strong><a href="href="
+														href="https://www.sololearn.com/Certificate/1097-17407115/pdf/"
+														target="_blank"></a>React + Redux course</strong></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="card text-center"><a
+										href="https://www.sololearn.com/Certificate/1024-17407115/pdf/" target="_blank"
+										target="_blank">
+										<img src="./images/1200x630wa.png" class="card-img-top">
+									</a>
+									<div class="card-body">
+										<ul class="list-group list-group-flush">
+											<li class="list-group-item"><strong><a
+														href="https://www.sololearn.com/Certificate/1024-17407115/pdf/"
+														target="_blank"></a>Javascript tutorial course</strong></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="card text-center"><a
+										href="https://www.sololearn.com/Certificate/1014-17407115/pdf/" target="_blank"
+										target="_blank">
+										<img src="./images/1200x630wa.png" class="card-img-top">
+									</a>
+									<div class="card-body">
+										<ul class="list-group list-group-flush">
+											<li class="list-group-item"><strong><a
+														href="https://www.gytislaukaitis.eu/Diploma.jpg"
+														target="_blank"></a>HTML Fundamentals course</strong></li>
+											
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="card text-center"><a
+										href="https://www.sololearn.com/Certificate/1023-17407115/pdf/" target="_blank">
+										<img src="./images/1200x630wa.png" class="card-img-top">
+									</a>
+									<div class="card-body">
+										<ul class="list-group list-group-flush">
+											<li class="list-group-item"><strong><a
+														href="https://www.sololearn.com/Certificate/1023-17407115/pdf/"
+														target="_blank"></a>CSS Fundamentals course</strong></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+							data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleControls" role="button"
+							data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+			       
+
+
+
+				</div>
+
+
 			</div>
 		</div>
-		
-	</main>
-	<footer class="copyright">
-		<a href="https://github.com/gytislaukaitisi" target ="_blank">Made with ❤️ and ☕ by Gytis Laukaitis</a>
-	</footer>
-	
-	
-</div>
-<script type="text/JavaScript" src="./particles.js"></script>
-<script type="text/JavaScript" src="./app.js"></script>
-<script type="text/JavaScript" src="./headerAnim.js"></script>
+		<!--──────────────Contact────────────────-->
+		<div id="contact">
+			<!--────social media links─────-->
+			<h3>Contact
+				<hr>
+			</h3>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p>Feel free to contact me on my social media.</p>
+						<div class="social-media">
+							<a href="mailto:gytislaukaitis@gmail.com" target="_blank"><i class="fab fa-google"></i></a>
+							<a href="https://github.com/gytislaukaitis" target="_blank"><i
+									class="fab fa-github"></i></a>
+							<a href="https://www.linkedin.com/in/gytis-laukaitis-5828721a9/" target="_blank"><i
+									class="fab fa-linkedin-in"></i></a>
+							<a href="https://www.facebook.com/gytis.laukaitis" target="_blank"><i
+									class="fab fa-facebook"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		</main>
+		<footer class="copyright">
+			<a href="https://github.com/gytislaukaitisi" target="_blank">Made with ❤️ and ☕ by Gytis
+				Laukaitis</a>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"></script>
+
+	</div>
+	<script type="text/JavaScript" src="./particles.js"></script>
+	<script type="text/JavaScript" src="./app.js"></script>
+	<script type="text/JavaScript" src="./headerAnim.js"></script>
 </body>
+
 </html>
