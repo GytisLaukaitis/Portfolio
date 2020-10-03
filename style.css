@@ -474,6 +474,12 @@
   
 	 @media (min-width: 700px) and (max-width: 870px) {
   
+		.nav-bar{
+			width: 72vw;
+			list-style:none;
+			position: relative;
+			display: inline-flex;
+		}
 	  
 	  .word {
 		  font-size: 6vw;
@@ -553,6 +559,13 @@
 	}
   
 	@media (min-width: 200px) and (max-width: 702px) {
+
+		.nav-bar{
+			margin-right: 20px;
+			list-style:none;
+			position: relative;
+			display: inline-flex;
+		}
   
 	  .word {
 		  font-size: 5vw;
