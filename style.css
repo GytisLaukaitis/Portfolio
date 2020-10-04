@@ -410,8 +410,14 @@
   }
   
   .nav-active{
+	  height: 100vh;
+	  margin-bottom: -60vh;
+	  margin-right: -40vw;
+	  padding: 0;
+	  width: 50vw;
 	  background-color: lightgray;
 	  transform:translatex(0%);
+	 
   }
   
   
@@ -561,10 +567,20 @@
 	@media (min-width: 200px) and (max-width: 702px) {
 
 		.nav-bar{
-			margin-right: 20px;
 			list-style:none;
 			position: relative;
 			display: inline-flex;
+		}
+
+		.nav-active{
+			height: 100vh;
+			margin-bottom: -60vh;
+			margin-right: -40vw;
+			padding: 0;
+			width: 50vw;
+			background-color: lightgray;
+			transform:translatex(0%);
+		
 		}
   
 	  .word {
