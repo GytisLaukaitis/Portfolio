@@ -70,10 +70,11 @@
 	  margin: 15px;
 	  padding: 5px 10px;
 	  text-decoration: none;
-	  color: var(--main-fonts-color);
+	  color: black;
 	  font-family: var(--main-font-family);
 	  cursor: pointer;
 	  text-transform: uppercase;
+	  opacity: 1;
   }
   
   
@@ -386,7 +387,7 @@
 		  top: 0px;
 		  right:0;
 		  width:60%;
-		  height: 100vh;
+		  height: 40vh;
 		  display:flex;
 		  flex-direction: column;
 		  align-items: center;
@@ -417,6 +418,7 @@
 	  width: 50vw;
 	  background-color: lightgray;
 	  transform:translatex(0%);
+	  opacity: 0.5;
 	 
   }
   
@@ -573,13 +575,14 @@
 		}
 
 		.nav-active{
-			height: 100vh;
+			height: 40vh;
 			margin-bottom: -60vh;
 			margin-right: -40vw;
 			padding: 0;
 			width: 50vw;
 			background-color: lightgray;
 			transform:translatex(0%);
+			opacity: 0.5;
 		
 		}
   
