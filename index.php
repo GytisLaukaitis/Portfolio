@@ -328,7 +328,7 @@ if(isset($_POST['submit'])){
 			<p>Feel free to contact me on my social media</p>
 						<div class="social-media">
 							<a href="mailto:gytislaukaitis@gmail.com" target="_blank"><i class="fab fa-google"></i></a>
-							<a href="https://github.com/gytislaukaitis" target="_blank"><i
+							<a href="https://github.com/GytisLaukaitis" target="_blank"><i
 									class="fab fa-github"></i></a>
 							<a href="https://www.linkedin.com/in/gytis-laukaitis-5828721a9/" target="_blank"><i
 									class="fab fa-linkedin-in"></i></a>
@@ -337,7 +337,7 @@ if(isset($_POST['submit'])){
 						</div>
 		</main>
 		<footer class="copyright">
-			<a href="https://github.com/gytislaukaitisi" target="_blank">Made with ❤️ and ☕ by Gytis
+			<a href="https://github.com/GytisLaukaitis" target="_blank">Made with ❤️ and ☕ by Gytis
 				Laukaitis</a>
 		</footer>
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
