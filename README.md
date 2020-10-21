@@ -22,10 +22,10 @@ To download and use this template you could use `git clone` or `npx degit` to do
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/gytislaukaitis/anotherportfolio.git
+$ git clone https://github.com/GytisLaukaitis/Portfolio.git
 
 # Go into the repository
-$ cd PortFolio
+$ cd Portfolio
 
 # Install dependencies
 $ npm install
@@ -36,14 +36,14 @@ $ npm start
 
 ## Author
 
-- **Gytis Laukaitis** - [https://github.com/gytislaukaitis/anotherportfolio.git](https://github.com/gytislaukaitisi/anotherportfolio.git)
+- **Gytis Laukaitis** - [https://github.com/GytisLaukaitis/Portfolio.git](https://github.com/GytisLaukaitis/Portfolio.git)
 
 ## License
 This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details
 
 ## 🤝 Contributing
 
-Any idea on how we can make this more awesome ? [Open a new issue](https://github.com/gytislaukaitis/anotherportfolio/issues)!  I need all the help I can get to make this project awesome!
+Any idea on how we can make this more awesome ? [Open a new issue](https://github.com/GytisLaukaitis/Portfolio/issues)!  I need all the help I can get to make this project awesome!
 
 
 
