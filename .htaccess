@@ -1,8 +1,0 @@
-Options +FollowSymLinks
-RewriteEngine on
-#RewriteBase /
-ErrorDocument 404 https://www.gytislaukaitis.eu/index.html
-RewriteCond %{HTTPS} !on
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
-RewriteCond %{HTTP_HOST} !^www\. [NC]
-RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]

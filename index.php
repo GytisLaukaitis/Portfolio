@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -34,6 +35,7 @@
 					<div class="bg"></div>
 					<li><a class="nav-link active" href="#home">Home</a></li>
 					<li><a class="nav-link" href="#projects">Projects</a></li>
+					<li><a class="nav-link" href="#certifications">Certifications</a></li>
 					<li><a class="nav-link" href="#contact">Contact</a></li>
 					<li><a class="nav-link" href="docs/CV_2020-10-07-084333.pdf">My Resume</a></li>
 				</ul>
@@ -129,7 +131,7 @@
 
 	<!-- Certifications -->
 
-	<div id="projects">
+	<div id="certifications">
 		<h3>Certifications
 			<hr>
 		</h3>
@@ -278,25 +280,52 @@
 							<span class="sr-only">Next</span>
 						</a>
 					</div>
-			       
-
-
-
 				</div>
-
-
 			</div>
 		</div>
-		<!--──────────────Contact────────────────-->
-		<div id="contact">
-			<!--────social media links─────-->
-			<h3>Contact
-				<hr>
-			</h3>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<p>Feel free to contact me on my social media.</p>
+
+		<!-- Contact -->
+		<div id="contact" class="container contact-form">
+		<?php 
+if(isset($_POST['submit'])){
+    $to = "gytislaukaitis@yahoo.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $first_name = $_POST['name'];
+    $phone = $_POST['phone'];
+    $subject = "Form submission";
+    $message = $first_name . " " . $phone . " wrote the following:" . "\n\n" . $_POST['message'];
+   
+
+    $headers = "From:" . $from;
+	mail($to,$subject,$message,$headers);
+    }
+?>
+            <form action="index.php" method="post">
+                <h3 id="contact">Contact Me</h3>
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name *" value="" required/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="email" class="form-control" placeholder="Your Email *" value="" required/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="phone" class="form-control" placeholder="Your Phone Number *" value="" required/>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="submit" class="btnContact" value="Send Message" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="message" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;" required></textarea>
+                        </div>
+                    </div>
+				</div>
+			</form>
+
+			<p>Feel free to contact me on my social media.</p>
 						<div class="social-media">
 							<a href="mailto:gytislaukaitis@gmail.com" target="_blank"><i class="fab fa-google"></i></a>
 							<a href="https://github.com/gytislaukaitis" target="_blank"><i
@@ -306,12 +335,6 @@
 							<a href="https://www.facebook.com/gytis.laukaitis" target="_blank"><i
 									class="fab fa-facebook"></i></a>
 						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-
 		</main>
 		<footer class="copyright">
 			<a href="https://github.com/gytislaukaitisi" target="_blank">Made with ❤️ and ☕ by Gytis
@@ -326,7 +349,6 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
 			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 			crossorigin="anonymous"></script>
-
 	</div>
 	<script type="text/JavaScript" src="./particles.js"></script>
 	<script type="text/JavaScript" src="./app.js"></script>

@@ -35,3 +35,5 @@ const navSlide = () => {
 	}
 
 window.onload = () => navSlide();
+
+
