@@ -1,4 +1,4 @@
-# DevFolio 
+# PortFolio 
 This is a simple responsive portfolio website template . You can use it and make it yours by changing things and colors to your style and liking! I made it with a lot of hard work, love and of course with code :) I'm not a professional coder, but i tried my best to make it look cool and yet still keep it simple. 
 
 > Mistakes are proof that we are trying!
@@ -17,7 +17,8 @@ I learned so much while making this template, if you use it, please let me know.
 ## Sections
 ✔️ About me and summary\
 ✔️ Contact Info\
-✔️ Projects
+✔️ Projects\
+✔️ Certifications\
 ✔️ CV
 
 ## Getting Started 🚀
@@ -27,7 +28,7 @@ To download and use this template you could use `git clone` or `npx degit` to do
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/gytislaukaitisi/anotherportfolio.git
+$ git clone https://github.com/gytislaukaitis/anotherportfolio.git
 
 # Go into the repository
 $ cd DevFolio
@@ -130,15 +131,14 @@ I highly recommend to use [Github Pages](https://pages.github.com/) to achieve t
 
 ## Author
 
-- **Gytis Laukaitis** - [https://github.com/gytislaukaitisi/anotherportfolio.git](https://github.com/gytislaukaitisi/anotherportfolio.git)
+- **Gytis Laukaitis** - [https://github.com/gytislaukaitis/anotherportfolio.git](https://github.com/gytislaukaitisi/anotherportfolio.git)
 
-## License 📄 <a href = "https://github.com/achaljhawar/DevFolio/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/achaljhawar/DevFolio?style=flat-square"></a>
-
+## License
 This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details
 
 ## 🤝 Contributing
 
-Any idea on how we can make this more awesome ? [Open a new issue](https://github.com/gytislaukaitisi/anotherportfolio/issues)!  I need all the help I can get to make this project awesome!
+Any idea on how we can make this more awesome ? [Open a new issue](https://github.com/gytislaukaitis/anotherportfolio/issues)!  I need all the help I can get to make this project awesome!
 
 ### Don't forget to ⭐ and 🍴 the repository and share it with others.
 
