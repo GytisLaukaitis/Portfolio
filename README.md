@@ -31,7 +31,7 @@ To download and use this template you could use `git clone` or `npx degit` to do
 $ git clone https://github.com/gytislaukaitis/anotherportfolio.git
 
 # Go into the repository
-$ cd DevFolio
+$ cd PortFolio
 
 # Install dependencies
 $ npm install
