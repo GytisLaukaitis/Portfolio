@@ -325,7 +325,7 @@ if(isset($_POST['submit'])){
 				</div>
 			</form>
 
-			<p>Feel free to contact me on my social media.</p>
+			<p>Feel free to contact me on my social media</p>
 						<div class="social-media">
 							<a href="mailto:gytislaukaitis@gmail.com" target="_blank"><i class="fab fa-google"></i></a>
 							<a href="https://github.com/gytislaukaitis" target="_blank"><i
